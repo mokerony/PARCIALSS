@@ -1,6 +1,6 @@
 async function cargarProductos() {
     try {
-        const response = await fetch('https://api.jsonbin.io/v3/b/66fe0794e41b4d34e43c111d');
+        const response = await fetch('https://api.jsonbin.io/v3/b/67015e18acd3cb34a891b86a');
         
         if (!response.ok) {
             throw new Error('Error al cargar los productos: ' + response.statusText);
